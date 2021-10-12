@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world!(v3)' 
-                bat 'type example.txt'
+                bat 'printmessage.bat'
             }
         }
     }
